@@ -1,0 +1,8 @@
+---
+layout: default
+img: ipad.png
+category: Stuff
+title: Xamarin development
+description: |
+---
+  Spent some time learning about <a href="https://www.xamarin.com">Xamarin</a>. Hopefully i will have something to show you later on.
