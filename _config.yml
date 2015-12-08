@@ -3,12 +3,12 @@
 # ----------------------- #
 
 url: http://www.nerdbynature.me
-title: Nerd By Nature
-email: anders@nerdbynature.me
+title: NerdByNature.me
+email: anders@nilssoncreative.se
 author: Anders Nilsson
-description: > # "Write an awesome description for your new site here. 
-  Nerd by nature. Technician by demand.
-copyright: 'Copyright &copy; 2015 Nilsson Creative. All Rights Reserved.'
+description: > # "Write an awesome description for your new site here.
+  Anders Nilsson: Maker, tinkerer and procrastinator
+copyright: 'Copyright &copy; 2015 NerdByNature. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
@@ -24,6 +24,8 @@ permalink: pretty
 # ----------------------- #
 
 social:
+    title: e-mail
+    url: anders@nilssoncreative.se
   - title: facebook
     url: https://facebook.com/nerbynatureme
   - title: twitter
