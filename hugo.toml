@@ -1,4 +1,4 @@
-baseURL = 'https://nilssoncreative.se'
+baseURL = 'https://nilssoncreative.github.io'
 languageCode = 'en-us'
 title = 'Nilsson Creative'
 theme = 'paper'
