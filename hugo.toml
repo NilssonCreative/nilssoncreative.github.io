@@ -2,3 +2,6 @@ baseURL = 'https://nilssoncreative.se'
 languageCode = 'en-us'
 title = 'Nilsson Creative'
 theme = 'paper'
+aliases = [ "gorram/planner" ]
+[Permalinks]
+	code = "/:filename/"
