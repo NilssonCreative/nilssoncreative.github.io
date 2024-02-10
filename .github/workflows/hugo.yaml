@@ -40,7 +40,6 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Setup Node 20
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -51,7 +50,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-       uses: actions/setup-node@v4
+        - name: Setup Node 20
+        uses: actions/setup-node@v4
         with:
           node-version: 20.x
           cache: 'npm'
