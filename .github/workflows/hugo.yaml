@@ -48,10 +48,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-            node-version: latest
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -66,6 +63,8 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+          with:
+            node-version: 20
         with:
           path: ./public
 
