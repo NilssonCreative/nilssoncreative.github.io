@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>{{.Host}}</title>
+</head>
+<body>
+	<h1>{{.Host}}</h1>
+	<ul>
+		{{range .Modules}}<li><a href="{{.Path}}">{{$.Host}}{{.Path}}</a></li>{{end}}
+	</ul>
+</body>
+</html>
