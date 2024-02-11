@@ -40,6 +40,7 @@ jobs:
           modgen
           -config "modgen.yaml"
           -index-tmpl "indextmpl"
+          -module-tmpl "moduletmpl"
           -target "_site/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
