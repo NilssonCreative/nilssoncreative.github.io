@@ -1,0 +1,6 @@
+host: nilssoncreative.se
+
+modules:
+  - path: /go-panel
+    vcs: git
+    repo-url: https://github.com/NilssonCreative/go-panel
