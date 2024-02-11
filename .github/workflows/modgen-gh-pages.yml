@@ -31,7 +31,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          cache: true
+          cache: false
           go-version: '1.20'
       - name: Install modgen
         run: go install go.essaim.dev/modgen/cmd/modgen@latest
@@ -39,7 +39,7 @@ jobs:
         run: >
           modgen
           -config "modgen.yaml"
-          -module-tmpl "module.tmpl"
+          -index-tmpl "indextmpl"
           -target "_site/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
