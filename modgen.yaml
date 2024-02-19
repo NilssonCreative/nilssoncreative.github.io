@@ -4,3 +4,6 @@ modules:
   - path: /go-panel
     vcs: git
     repo-url: https://github.com/nilssoncreative/go-panel
+  - path: /go
+    vcs: git
+    repo-url: https://github.com/nilssoncreative/go
