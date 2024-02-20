@@ -7,6 +7,6 @@ modules:
   - path: /go
     vcs: git
     repo-url: https://github.com/nilssoncreative/go
-    - path: /go-planner
+  - path: /go-planner
     vcs: git
     repo-url: https://github.com/nilssoncreative/planner
