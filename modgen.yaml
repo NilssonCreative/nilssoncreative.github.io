@@ -9,4 +9,4 @@ modules:
     repo-url: https://github.com/nilssoncreative/go
   - path: /go-planner
     vcs: git
-    repo-url: https://github.com/nilssoncreative/planner
+    repo-url: https://github.com/nilssoncreative/planner@dev
