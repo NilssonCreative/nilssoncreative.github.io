@@ -10,3 +10,6 @@ modules:
   - path: /go-planner@dev
     vcs: git
     repo-url: https://github.com/nilssoncreative/planner
+  - path: /nbndnd
+    vcs: git
+    repo-url: https://github.com/nilssoncreative/nbndnd
