@@ -1,0 +1,4 @@
+baseURL = 'https://nilssoncreative.se/'
+languageCode = 'sv-se'
+title = 'Nilsson Creative'
+theme = 'binario'
